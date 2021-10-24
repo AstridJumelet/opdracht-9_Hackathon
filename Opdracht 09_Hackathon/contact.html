@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dit gaat nergens over</title> 
+</head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<body>
+    <header>
+        <h1>Uit het niets</h1>
+    </header> 
+    <nav>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">Niets Nada Noppes</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </nav>
+<hr>
+    <form name="contact" method="POST" data-netlify="true">
+        <h2>Ook niets te melden?</h2>
+        <p>
+            Heb je ook niets te melden? We zijn erg benieuwd!<br>
+            Laat het ons weten via onderstaand contactformulier.
+        </p>
+        <p>
+            <label>Voornaam</label>
+            <input type="text" name="vnaam" size="50"/>
+        </p>
+        <p>
+            <label>Achternaam</label>
+            <input type="text" name="anaam" size="50"/>
+        </p>
+        <p>
+            <label>Leeftijd </label>
+            <input type="text" name="leeftijd" size="50"/> 
+        </p>
+        <p>
+            <label>Geslacht</label>
+            <input type="radio" name="geslacht" value="man"/>man
+            <input type="radio" name="geslacht" value="vrouw"/>vrouw
+        </p>
+        <p>
+            <label>Emailadres</label>
+            <input type="email" name="emailadres" size="50"/>
+        </p>
+        <p>
+            <label>Nieuwsbrief ontvangen?</label>
+            <input type="radio" name="nieuwsbrief" value="ja"/>ja
+            <input type="radio" name="nieuwsbrief" value="nee"/>nee
+        </p> 
+        <p>
+            <label>Van welk seizoen houd je?</label>
+            <input type="checkbox" name="seizoen" value="lente"/>lente
+            <input type="checkbox" name="seizoen" value="zomer"/>zomer
+            <input type="checkbox" name="seizoen" value="herfst"/>herfst
+            <input type="checkbox" name="seizoen" value="winter"/>winter
+        </p>
+        <p>
+            <label>Geef je bericht een gezicht:</label>
+            <input type="file" name="foto"/> (upload hier een foto van jezelf)
+        </p>
+        <p>
+            <label>Beken hier je kleur:</label>
+            <input type="color" name="favcolor" value="#000080"/> (Kies hier jouw lievelingskleur)
+        </p>
+        <p>
+            <label>Bericht:</label>
+            <textarea name="bericht" rows="8" cols="50">
+            Vertel hier wat je ons hebt te melden
+            </textarea>
+        </p>
+        <p>
+            <input type="reset" value="Reset"/>
+            <input type="submit" value="Verzenden"/>
+        </p>
+    </form>
+    <footer>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">Niets Nada Noppes</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

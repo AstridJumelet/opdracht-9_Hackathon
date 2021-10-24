@@ -1,0 +1,101 @@
+header{
+    font-size:35px;
+    line-height: 1em;
+}
+HR{
+    margin:0;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+body{
+    font-family: metropolis, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    border: 1px solid rgba(50, 160, 233, 0.93)
+}
+header, body, h2, section, img, article, p{
+    padding:10px
+}
+img.alignleft{
+    border: 3px solid;
+    float:left;
+    margin: 0 10px 60px 0;
+    clear:left;
+    height:200px;
+    width:200px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-line:underline;
+    border: 1px solid rgba(50, 160, 233, 0.93);
+    background-color: skyblue;
+    width:50%;
+    margin: 0px;
+
+}
+section{
+    margin-top: 0;
+    margin-left: 250px;
+}
+
+.darkblue-border{
+    border: 3px solid rgba(6, 213, 240, 0.349);
+}   
+#lightblue-blokje{
+    background-color:rgba(202, 218, 231, 0.253);
+    color: magenta;
+    width:50%;
+    padding:10px 50px;
+    margin:0% auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.footer-blog{
+    font-style: italic;
+    line-height: 5px;
+}
+aside{
+    font-style: italic;
+    margin-top: 25px;
+}
+footer{
+    font-size: 12px;
+    padding: 0px 10px;
+}
+ul.menu{
+    list-style: none;
+    padding:10px 0px;
+}
+ul.menu li{
+    display: inline;
+}
+ul.menu li a{
+    margin: 10px;
+    text-decoration: none;
+}
+.loveit-lijstje{
+    list-style-type: square;
+}
+@media(min-width:1024px){
+    body{
+        color:cornflowerblue;
+        font-size: 16px;
+        line-height: 1.6em;
+}
+}
+    
+form{
+    padding:15px;
+}
+label{
+    float: left;
+    width: 150px;
+    margin-right: 100px;
+}
+input{
+    background-color: rgba(218, 165, 32, 0.541);
+}
